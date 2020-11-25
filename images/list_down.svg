@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7" width="10" height="7">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #2c71b8 } 
+	</style>
+	<path id="Прямоугольник 4 копия" class="shp0" d="M0.76 2L2.17 0.59L6.41 4.83L5 6.24L0.76 2ZM3.59 4.83L7.83 0.59L9.24 2L5 6.24L3.59 4.83Z" />
+</svg>
