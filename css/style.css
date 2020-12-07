@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -28,7 +33,6 @@ body {
 [class*="col-"] {
 	float: left;
 	padding: 0 15px;
-	line-height: 50px;
 }
 
 .col-md-3 {
@@ -187,4 +191,206 @@ body {
 	text-align: center;
 	color: #fff;
 	padding-right: 1px;
+}
+
+
+.slider {
+	height: 400px;
+	font-size: 72px;
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+
+.col-md-12 {
+	width: 100%;
+}
+
+.slider h1 {
+	line-height: 400px;
+}
+
+.filter {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-right: 1px solid #fff;
+	height: 700px;
+}
+
+.col-md-9 {
+	width: 75%;
+}
+
+.products {
+}
+.breadcrumps {
+	padding: 29px 0 24px 15px;
+}
+
+.breadcrumps__list:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.breadcrumps__item {
+	float: left;
+}
+.breadcrumps__item:not(:last-child):after {
+	content: ">";
+	color: rgba(255, 255, 255, 0.5);
+	margin: 0 7px;
+}
+
+.breadcrumps__link {
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.breadcrumps__link:hover {
+	text-decoration: underline;
+}
+
+.products__title {
+	font-size: 48px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 49px;
+}
+
+.products__filter {
+}
+
+.col-md-4 {
+	width: 33.3333%;
+}
+
+.carts:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.cart {
+	border: 1px solid #fff;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.cart__image {
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.75);
+	height: 180px;
+}
+
+.cart__img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.scale, .like {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+	right: 10px;
+}
+
+.scale {
+	position: absolute;
+	top: 10px;
+}
+
+.like {
+	position: absolute;
+	top: 50px;
+	line-height: 30px;
+}
+
+.scale__link, .like__link {
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 4px;
+}
+.like__link {
+	padding-left: 5px;
+}
+
+.scale__image, .like__image {
+	fill: #2c71b8;
+}
+
+.scale:hover .scale__image, .like:hover .like__image {
+	fill: #fff;
+}
+.scale:hover, .like:hover {
+	background-color: #2c71b8;
+}
+
+.cart__title {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 56px;
+}
+
+.cart__about {
+	padding: 0 15px 16px;
+	background-color: rgba(44, 113, 184, 0.75);
+	height: 100%;
+}
+
+.cart__text {
+	font-size: 21px;
+	line-height: 31px;
+}
+
+.characteristics {
+	font-size: 21px;
+	line-height: 31px;
+	margin: 5px 0;
+}
+
+.characteristics span {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.price {
+	margin: 29px 0 24px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.price span {
+	font-size: 24px;
+	margin-left: 8px;
+	vertical-align: middle;
+}
+
+.cart__details, .cart__add {
+	color: inherit;
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 50px;
+	width: 210px;
+	display: block;
+	margin: 0 auto;
+}
+
+.cart__details {
+	background-color: #2c71b8;
+	border: 1px solid #fff;
+	margin-bottom: 14px;
+}
+
+.cart__add {
+	background-color: rgba(255, 255, 255, 0.2);
+	margin-bottom: 14px;
+}
+
+.cart__add svg {
+	margin-left: 10px;
+	fill: #fff;
 }
