@@ -386,10 +386,16 @@ body {
 	border: 1px solid #fff;
 	margin-bottom: 14px;
 }
+.cart__details:hover {
+	background-color: #195999;
+}
 
 .cart__add {
 	background-color: rgba(255, 255, 255, 0.2);
 	margin-bottom: 14px;
+}
+.cart__add:hover {
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
 .cart__add svg {
