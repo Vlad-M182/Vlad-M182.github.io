@@ -7,6 +7,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	background-image: url("../images/bg.png");
+	color: #fff;
 }
 
 .container {
@@ -212,9 +213,68 @@ body {
 
 .filter {
 	background-color: rgba(255, 255, 255, 0.2);
+	height: 100%;
 	border-right: 1px solid #fff;
-	height: 700px;
+	padding: 33px 0 30px 29px;
 }
+
+.filter__block {
+	margin-bottom: 50px;
+}
+
+.block-last {
+	margin-bottom: 20px;
+}
+
+.filter__block input {
+	display: none;
+}
+
+.filter__block label {
+	cursor: pointer;
+	line-height: 29px;
+	font-size: 21px;
+}
+
+.filter__block label:before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fff;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+.filter__block input:checked + label:before {
+	background-color: #fff;
+}
+
+.filter__title {
+	font-weight: 700;
+	font-size: 21px;
+	color: #fff;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+}
+
+.filter__link {
+	font-size: 21px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.filter__link:hover {
+	text-decoration: underline;
+}
+
+
+#filter__button {
+	display: block;
+	color: #fff;
+	margin: 25px 0 0 0;
+}
+
 
 .col-md-9 {
 	width: 75%;
@@ -396,4 +456,24 @@ body {
 .cart__add svg {
 	margin-left: 10px;
 	fill: #fff;
+}
+
+.more {
+	display: block;
+	font-size: 36px;
+	margin: 37px 0 87px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.more:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	height: 100px;
+	padding: 50px 0 40px 0;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.75);
+	color: #2c71b8;
 }
