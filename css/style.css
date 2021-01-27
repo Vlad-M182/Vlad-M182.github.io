@@ -315,9 +315,6 @@ body {
 	margin-bottom: 49px;
 }
 
-.products__filter {
-}
-
 .col-md-4 {
 	width: 33.3333%;
 }
@@ -522,4 +519,43 @@ body {
 }
 .show {
 	display: block;
+}
+
+.product-count, .product-count input {
+    text-align: center;
+}
+.product-count button {
+    padding: 3px 8px;
+}
+
+.h100 {
+	height: 100%;
+}
+
+.swiper-container {
+	height: 100%;
+}
+.swiper-wrapper {
+	position: relative;
+}
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 48%;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.4);
+}
+.swiper-button-next {
+	right: 0;
+}
+.swiper-button-prev {
+	left: 0;
 }
